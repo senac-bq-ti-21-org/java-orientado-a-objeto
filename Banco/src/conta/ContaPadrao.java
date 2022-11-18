@@ -1,7 +1,7 @@
 package conta;
 public abstract class ContaPadrao {
-    private int numero;
     private Cliente titular;
+    private int numero;
     protected double saldo;
     public ContaPadrao(int numero, String nomeTitular, String cpfTitular){
         this.numero = numero;
@@ -27,6 +27,6 @@ public abstract class ContaPadrao {
         return numero;
     }
     public void getTipoConta(){
-        System.out.println("Conta padr„o");
+        System.out.println("Conta padr√£o");
     }
 }
