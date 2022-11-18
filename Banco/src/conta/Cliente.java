@@ -1,7 +1,6 @@
 package conta;
 public class Cliente {
-    private String nome;
-    private String cpf;
+    private String nome, cpf;
     public Cliente (String nome, String cpf){
         this.setNome(nome);
         this.setCpf(cpf);
