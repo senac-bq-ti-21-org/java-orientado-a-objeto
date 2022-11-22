@@ -1,7 +1,7 @@
 package conta;
 public abstract class ContaPadrao {
-    private int numero;
     private Cliente titular;
+    private int numero;
     protected double saldo;
     public ContaPadrao(int numero, String nomeTitular, String cpfTitular){
         this.numero = numero;
